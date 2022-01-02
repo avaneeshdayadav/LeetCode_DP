@@ -8,9 +8,7 @@ class Solution {
     }
     
     public int fun(int[] cost, int indx, int[] dp)
-    {
-        //System.out.println("Hello");
-        
+    {   
         if(indx >= cost.length)
         {
             dp[indx] = 0;

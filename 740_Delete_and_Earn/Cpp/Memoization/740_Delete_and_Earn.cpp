@@ -18,14 +18,11 @@ public:
         int newNums[max+1];
         
         // Create a memoization array to remember previously calculated values of length 2 greater than freq count array.
-        int memo[max+3];
+        int memo[max+1];
         
         // Initialize memoization array to all -1 value.
         memset(memo,-1,sizeof(memo));
         
-        
-        // Make last two values of memoization array as 0.
-        memo[max+1]=memo[max+2]=0;
         
         // Initialize freq count array to all zero.
         memset(newNums,0,sizeof(newNums));

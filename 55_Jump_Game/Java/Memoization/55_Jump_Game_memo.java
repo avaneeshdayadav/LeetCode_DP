@@ -1,3 +1,6 @@
+// VERY SLOW with memoization.
+// Prefer here tabulation.
+
 class Solution {
     public boolean canJump(int[] nums) {
         int memo[] = new int[nums.length];

@@ -1,3 +1,5 @@
+// Greedy soln is much better here than dp
+
 class Solution {
     public int jump(int[] nums) {
      
